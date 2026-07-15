@@ -1,16 +1,156 @@
-# React + Vite
+# CoreBTR Bootcamp Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page built with **React** and **Vite** as part of a frontend technical assignment. The project focuses on recreating the CoreBTR Bootcamp landing page with a pixel-perfect UI, reusable components, clean code architecture, and a responsive user experience across all devices.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Website:** 
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 Project Overview
 
-## Expanding the ESLint configuration
+This project recreates the CoreBTR Bootcamp landing page using React (JavaScript). The primary objective was to closely match the original design while following modern frontend development best practices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Key Highlights
+
+- Pixel-perfect UI implementation
+- Fully responsive design
+- Reusable React components
+- Clean folder structure
+- Smooth scrolling and interactive UI
+- Optimized performance
+- Semantic HTML5
+- Mobile-first approach
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- Vite
+- HTML5
+- CSS3
+- Git & GitHub
+
+---
+
+## ✨ Features
+
+- Responsive Navbar
+- Hero Section
+- Features Section
+- Curriculum Section
+- Pricing Section
+- Testimonials
+- FAQ Section
+- Footer
+- Back-to-Top Button
+- Scroll Progress Indicator
+- Floating Call-to-Action
+- Smooth Animations
+
+---
+
+## 📁 Project Structure
+
+```
+corebtr-bootcamp/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── Hero/
+│   │   ├── Features/
+│   │   ├── Curriculum/
+│   │   ├── Pricing/
+│   │   ├── Testimonials/
+│   │   ├── FAQ/
+│   │   ├── Footer/
+│   │   └── ui/
+│   ├── data/
+│   ├── hooks/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/TiyaRajput123/Corebtr-bootcamp.git
+```
+
+Move into the project folder:
+
+```bash
+cd Corebtr-bootcamp
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 📱 Responsive Design
+
+The application is optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+---
+
+## 🎯 Development Goals
+
+- Build reusable React components
+- Maintain clean and readable code
+- Ensure responsive layouts
+- Follow React best practices
+- Deliver a consistent user experience
+
+---
+
+
+## 👩‍💻 Author
+
+**Tiya Rajput**
+
+---
+
+## 📄 License
+
+This project was developed for educational and technical assessment purposes only. All original branding, content, and design references belong to their respective owners.
