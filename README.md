@@ -1,4 +1,4 @@
-# CoreBTR Bootcamp Landing Page
+# CoreBTR Bootcamp 
 
 A modern, responsive landing page built with **React** and **Vite** as part of a frontend technical assignment. The project focuses on recreating the CoreBTR Bootcamp landing page with a pixel-perfect UI, reusable components, clean code architecture, and a responsive user experience across all devices.
 
