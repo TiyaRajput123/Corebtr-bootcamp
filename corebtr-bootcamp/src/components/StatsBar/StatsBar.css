@@ -1,0 +1,87 @@
+/* ===== STATS BAR ===== */
+.statsbar {
+  padding: var(--spacing-xl) 0;
+  position: relative;
+  z-index: 1;
+}
+
+.statsbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl) var(--spacing-3xl);
+  position: relative;
+  overflow: hidden;
+  gap: var(--spacing-xl);
+}
+
+.statsbar__inner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(232, 76, 30, 0.06) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.statsbar__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  flex: 1;
+  text-align: center;
+}
+
+.statsbar__value {
+  font-size: clamp(var(--font-size-2xl), 3vw, var(--font-size-4xl));
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.statsbar__label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.statsbar__divider {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 50px;
+  background: var(--color-border);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .statsbar__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl) var(--spacing-lg);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-lg);
+  }
+
+  .statsbar__divider {
+    display: none;
+  }
+
+  .statsbar__item {
+    border: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .statsbar__inner {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+  }
+}

@@ -1,0 +1,7 @@
+.section-header-wrapper {
+  margin-bottom: var(--spacing-3xl);
+}
+
+.section-header-wrapper .section-title {
+  margin-bottom: var(--spacing-md);
+}

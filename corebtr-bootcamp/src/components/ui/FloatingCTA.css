@@ -1,0 +1,65 @@
+/* ===== FLOATING CTA BAR ===== */
+.floating-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 998;
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+}
+
+.floating-cta--visible {
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.floating-cta__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
+  background: rgba(10, 10, 15, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(232, 76, 30, 0.25);
+  padding: 14px var(--spacing-2xl);
+  max-width: var(--container-max);
+  margin: 0 auto;
+  box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.5);
+}
+
+.floating-cta__text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.floating-cta__emoji {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.floating-cta__msg strong {
+  color: var(--color-text-primary);
+}
+
+.floating-cta__btn {
+  padding: 10px 22px !important;
+  font-size: var(--font-size-sm) !important;
+  flex-shrink: 0;
+}
+
+/* Hide floating bar on very small screens that already have a bottom bar */
+@media (max-width: 400px) {
+  .floating-cta__inner {
+    padding: 12px var(--spacing-md);
+  }
+
+  .floating-cta__text {
+    font-size: var(--font-size-xs);
+  }
+}

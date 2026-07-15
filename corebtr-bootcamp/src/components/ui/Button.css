@@ -1,0 +1,16 @@
+/* Button sizes */
+.btn-sm {
+  padding: 10px 20px;
+  font-size: var(--font-size-sm);
+}
+
+.btn-md {
+  padding: 14px 28px;
+  font-size: var(--font-size-base);
+}
+
+.btn-lg {
+  padding: 18px 36px;
+  font-size: var(--font-size-lg);
+  border-radius: var(--radius-lg);
+}
