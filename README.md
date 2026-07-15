@@ -4,7 +4,7 @@ A modern, responsive landing page built with **React** and **Vite** as part of a
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:** 
+🔗 **Live Website:** https://corebtr-bootcamp-henna.vercel.app/
 
 ---
 
